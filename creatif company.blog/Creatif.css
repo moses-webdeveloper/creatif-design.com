@@ -1,0 +1,141 @@
+#header{
+    font-family: sf pro text;
+    text-align: center;
+    font-weight: 800;
+
+}
+nav{
+    font-family: sf pro text;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 100px;
+    color: black;
+    background-color: rgb(170, 221, 245);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    
+
+
+}
+a{
+    color:black;
+    padding: 4px;
+    text-decoration:underline;
+    font-size: 12px;
+
+}
+a:hover{
+    background-color:purple ;
+    color: white;
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+#design{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    grid-gap:20px;
+    background-color: rgb(170, 221, 245);
+    border: 2.5px solid black;
+    margin-block-start: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+article{
+    width:400px;
+    font-family: sf pro text;
+    margin-inline-start: 20px;
+    background-color:whitesmoke;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 0.5rem;
+
+    
+}
+.h4{
+    text-align: justify;
+    margin-block-start: -90px;
+
+}
+#image{
+    text-align: center;
+    margin-inline-start: 23px;
+    margin-block-start: -37px;
+}
+.aside{
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    background-color: rgb(170, 221, 245);
+    margin-block-start:100px;
+    border: 2.5px solid black;
+
+}
+aside{
+    width:400px;
+    font-family: sf pro text;
+    margin-inline-start: 390px;
+    background-color:whitesmoke;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 0.5rem;
+
+    
+}
+form{
+    margin-block-start: 40px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    font-family: sf pro text;
+}
+input{
+    width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid purple;
+    
+}
+button{
+    font-family: sf pro text;
+    padding-left: 20px;
+    background-color:purple;
+    color: white;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#footer{
+    font-family: sf pro text;
+    font-size:24.9px;
+    text-align: center;
+    
+}
+fieldset{
+    margin-right: 21rem;
+    margin-left: 21rem;
+    border: 1px solid purple;
+    margin-block-start: 40px;
+    padding-bottom: 50px;
+    
+}
+legend{
+    font-family: sf pro text;
+    font-weight:light;
+    
+}
